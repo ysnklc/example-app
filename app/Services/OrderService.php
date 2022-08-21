@@ -41,8 +41,7 @@ class OrderService
                     'product_id' => $item['product_id'],
                     'order_id' => $order->id,
                     'unit_price' => $item['unit_price'],
-                    'quantity' => $item['quantity'],
-                    'discount' => 0,
+                    'quantity' => $item['quantity']
                 ]);
             }
         });

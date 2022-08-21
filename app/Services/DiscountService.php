@@ -80,7 +80,7 @@ class DiscountService
         /* @var Product $product*/
         foreach ($productsArray as $product) {
             if ($product->category_id == $categoryId) {
-                $quantity = $product->pivot->quantity;
+                $quantity += $product->pivot->quantity;
             }
         }
 

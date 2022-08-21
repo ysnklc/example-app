@@ -20,7 +20,6 @@ class OrderProductSeeder extends Seeder
         $orderPorduct->product_id = 1;
         $orderPorduct->order_id = 1;
         $orderPorduct->unit_price = 500;
-        $orderPorduct->discount = 200;
         $orderPorduct->quantity = 4;
         $orderPorduct->save();
 
@@ -28,7 +27,6 @@ class OrderProductSeeder extends Seeder
         $orderPorduct2->product_id = 4;
         $orderPorduct2->order_id = 1;
         $orderPorduct2->unit_price = 50;
-        $orderPorduct2->discount = 50;
         $orderPorduct2->quantity = 6;
         $orderPorduct2->save();
 
@@ -36,7 +34,6 @@ class OrderProductSeeder extends Seeder
         $orderPorduct2->product_id = 2;
         $orderPorduct2->order_id = 2;
         $orderPorduct2->unit_price = 100;
-        $orderPorduct2->discount = 20;
         $orderPorduct2->quantity = 1;
         $orderPorduct2->save();
 
@@ -44,7 +41,6 @@ class OrderProductSeeder extends Seeder
         $orderPorduct3->product_id = 3;
         $orderPorduct3->order_id = 2;
         $orderPorduct3->unit_price = 150;
-        $orderPorduct3->discount = 0;
         $orderPorduct3->quantity = 2;
         $orderPorduct3->save();
     }

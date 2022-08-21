@@ -18,7 +18,6 @@ return new class extends Migration
             $table->foreignId('product_id');
             $table->foreignId('order_id');
             $table->double('unit_price', 8, 2);
-            $table->double('discount', 8, 2)->default(0);
             $table->integer('quantity');
             $table->timestamps();
         });
